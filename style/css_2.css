@@ -1,0 +1,103 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient( to left,rgb(33, 3, 80),rgb(143, 26, 211));
+   height: 100vh;
+   
+    
+    color: rgb(16, 223, 223);
+    font-size: 16px;
+}
+
+/* first article heading and number to guess*/
+
+.head{
+    
+    width: 50%;
+    min-width: 250px;
+    text-align: center;
+    margin: 50px auto;
+    box-sizing: border-box;
+    
+
+}
+.head h1{
+    font-size: 4em;
+}
+.head .number{
+    text-align: center;
+    margin: 50px auto;
+    transform: translateY(50%);
+    width: 200px;
+    height: 100px;
+    background-color: rgb(3, 50, 77);
+    font-size: 5em;
+}
+.head button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+/* second article guess number*/
+
+.guessNum{
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+    min-width: 250px;
+    text-align: center;
+    margin: 100px auto;
+    box-sizing: border-box;
+
+
+}
+.guessNum div{
+    margin: 50px;
+    box-sizing: border-box;
+}
+.guessNum input{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: aqua;
+    font-size: 2em;
+    text-align: right;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.guessNum button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.guessNum p{
+    width: 300px;
+    min-width: 250px;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
