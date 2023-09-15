@@ -48,7 +48,9 @@ body{
     box-shadow: 2px 2px 5px rgb(0, 0, 0);
     cursor: pointer;
 }
-
+.head p{
+    font-size: 2em;
+}
 /* second article guess number*/
 
 .guessNum{
